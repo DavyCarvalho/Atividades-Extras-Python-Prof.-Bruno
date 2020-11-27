@@ -33,13 +33,22 @@ quantidade_galoes = math.ceil(area_ser_pintada/galao_pinta_m2)
 
 sleep(0.7)
 
+################################ - Seria Melhor Colocar nas Variaveis as contas #######################
+############################### - E depois colocar no print fica mais facil De Ler Daí - #######################################
+
 print(f"""
-Caso você deseje comprar em Latas você vai precisar de {quantidade_latas} 
-Latas! Gastando R${quantidade_latas*80}!
+Caso você deseje comprar em Latas você vai precisar de {quantidade_latas}           
+Latas! Gastando R${quantidade_latas*80}!                                
 
 Caso você deseje comprar em Galão você vai precisar de {quantidade_galoes} Galões! 
 Gastando R${quantidade_galoes*25}!
 
-Ou, você pode comprar {litros//18} latas e {math.ceil((litros%18)/3.6)} galões!
+Ou, você pode comprar {litros//18} latas e {math.ceil((litros%18)/3.6)} galões!     
 Gastando no total R${((litros//18)*80) + (math.ceil((litros%18)/3.6)*25)}
 """)
+
+###################################################################################################################
+'''
+                                    -  P A R A B É N S ! - 
+'''
+###################################################################################################################

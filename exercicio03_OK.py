@@ -6,9 +6,9 @@
 while True:
     try:        
         l1 = float(input("Digite o valor do L1:"))
-        l2 = float(input("Digite o valor do L3:"))
-        l3 = float(input("Digite o valor do L3:"))
-        print('\n')
+        l2 = float(input("Digite o valor do L3:"))  ###############################################
+        l3 = float(input("Digite o valor do L3:"))  # R E P E T I U  O  N U M E R O  D E  L A D O S
+        print('\n')                                 ###############################################
         
         verificador = True
         
@@ -25,4 +25,10 @@ while True:
     except ValueError:
         print('Valor Invalido!\n')
         continue
+
+###################################################################################################################
+'''
+                                    -  P A R A B É N S ! - 
+'''
+###################################################################################################################
         

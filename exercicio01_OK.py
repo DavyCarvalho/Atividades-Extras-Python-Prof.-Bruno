@@ -13,17 +13,17 @@
 #     - Sindicato ( 5%) : R$
 #     = Salário Liquido : R$
 
-from time import sleep
+from time import sleep                                                                  ##########################
+                                                                                            # C O L O C A R
+ganho_por_hora = float(input('Digite o quanto você recebe por hora!\n'))                    # Try, except aqui !
+horas_trabalhadas_mes = int(input('Digite o numéro de horas que você trabalha por mês:\n')) # ^^ ^^ ^^ ^^ ^^ ^^
+salario_bruto = ganho_por_hora*horas_trabalhadas_mes                                    ##########################
 
-ganho_por_hora = float(input('Digite o quanto você recebe por hora!\n'))
-horas_trabalhadas_mes = int(input('Digite o numéro de horas que você trabalha por mês:\n'))
-salario_bruto = ganho_por_hora*horas_trabalhadas_mes
+ir = salario_bruto*11/100               ################        ############        ##############
+inss = salario_bruto*8/100    # C O L O C A R  E S P A Ç O  E N T R E  O S  O P E R A D O R E S
+sindicato = salario_bruto*5/100         ################        ############        ###############
 
-ir = salario_bruto*11/100
-inss = salario_bruto*8/100
-sindicato = salario_bruto*5/100
-
-salario_liquido = salario_bruto-(ir+inss+sindicato)
+salario_liquido = salario_bruto-(ir+inss+sindicato) 
 
 print('Hmmmmm, aguarde, calculando dados, hmmmmm....\n')
 sleep(1)
@@ -39,3 +39,9 @@ print(f'INSS: R${inss}')
 print(f'Sindicato: R${sindicato}')
 {sleep(0.5)}
 print(f'Lhe restantando o valor liquido de: R${salario_liquido}')
+
+###################################################################################################################
+'''
+                                    -  P A R A B É N S ! - 
+'''
+###################################################################################################################
