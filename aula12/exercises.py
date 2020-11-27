@@ -48,6 +48,10 @@
 
 #     Elabore uma função que identifica e mostra na tela todos os quadrados mágicos com as características acima. Dica: produza todas as combinações possíveis e verifique a soma quando completar cada quadrado. Usar um vetor de 1 a 9 parece ser mais simples que usar uma matriz 3x3. 
 
+# 1d = []
+# 2d = [][]
+# 3d = [][][]
+
 #######################################################################################################
 
 # Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
