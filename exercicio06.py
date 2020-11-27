@@ -14,3 +14,12 @@
 # 1d = []
 # 2d = [][]
 # 3d = [][][]
+
+'''
+    U M A  H O R A  V A I kkkkkkkkkk
+
+    Eu criei uma lista para cada linha, e adicionei apenas 3 números em cada uma das listas
+    usei umas condições de while e random, para não repetir os números quando criasse,
+    e no final da geração de números, adicionei as 3 linhas(listas) numa lista só.
+
+'''
